@@ -1,1 +1,21 @@
-GET http://localhost:3000/subscribers
+GET http://localhost:3000/users
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "name": "mahdi",
+  "family": "Bayat",
+  "mobile": "09150465254"
+}
+
+###
+
+POST http://localhost:3000/users/delete
+Content-Type: application/json
+
+{
+  "id": "65d516db383b3f0e7407e138",
+}
